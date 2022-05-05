@@ -14,4 +14,4 @@ set +x
 
 set -x
 java jar target/${NAME}-${VERSION}.jar
-set +x
+
