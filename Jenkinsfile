@@ -1,14 +1,14 @@
 pipeline {
 	agent any
 	stages {
-		stage ('Build') {
-			steps {
-				sh 'echo test'
-				sh '''
-				echo "multi line"
-				ls - lrt 
-			  '''
-			}
-		}
-	}
+	   stage ('Build') {
+	      steps {
+		   sh 'echo test'
+		   sh '''
+		       echo "multi line"
+		       ls - lrt 
+		 '''
+	      }
+	   }
+      }
 }
